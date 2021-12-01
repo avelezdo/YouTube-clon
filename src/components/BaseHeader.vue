@@ -1,12 +1,13 @@
 <template lang="">
     <header>
-        <img src="" alt="" />
+        <IconYoutube />
         <div>
-            <iconSearch />
+            <!-- <iconSearch /> -->
         </div>
+        <img src="" alt="" />
     </header>
 </template>
-<script>
-export default {}
+
+<script setup>
+import IconYoutube from './icons/iconYoutube.vue'
 </script>
-<style lang=""></style>

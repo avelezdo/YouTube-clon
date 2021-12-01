@@ -1,6 +1,9 @@
-<script setup></script>
+<script setup>
+import BaseHeaderVue from './components/BaseHeader.vue'
+</script>
 
 <template>
+    <BaseHeaderVue></BaseHeaderVue>
     <img alt="Vue logo" src="./assets/logo.png" />
 </template>
 
