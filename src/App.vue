@@ -1,10 +1,9 @@
 <script setup>
-import BaseHeaderVue from './components/BaseHeader.vue'
+import BaseHeader from './components/BaseHeader.vue'
 </script>
 
 <template>
-    <BaseHeaderVue></BaseHeaderVue>
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <BaseHeader></BaseHeader>
 </template>
 
 <style>
@@ -14,6 +13,5 @@ import BaseHeaderVue from './components/BaseHeader.vue'
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
 }
 </style>
