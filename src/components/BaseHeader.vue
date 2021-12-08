@@ -1,6 +1,7 @@
 <template>
-    <header class="flex justify-between p-4 shadow">
-        <IconYoutube width="100" height="48" />
+    <header class="flex justify-between items-center p-2 shadow">
+        <!-- !<IconYoutube :width="100" :height="100" /> en este caso da igual pasarle Number (:width="100") o String (width="100")-->
+        <IconYoutube width="100" height="20" />
         <div class="flex">
             <IconSearch width="24" height="24" />
             <img

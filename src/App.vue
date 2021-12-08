@@ -1,9 +1,13 @@
 <script setup>
 import BaseHeader from './components/BaseHeader.vue'
+import VideosList from './components/VideosList.vue'
+import { videos } from './assets/videos.json'
+console.log(videos)
 </script>
 
 <template>
     <BaseHeader></BaseHeader>
+    <VideosList :videos="videos" />
 </template>
 
 <style>
