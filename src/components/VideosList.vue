@@ -1,12 +1,16 @@
 <template>
     <section>
-        <div v-for="video in videos" :key="video.channelName">
-            <img :src="video.thumbnail" alt="" />
-        </div>
+        <ItemVideo
+            v-for="video in videos"
+            :key="video.channelName"
+            :video="video"
+        ></ItemVideo>
     </section>
 </template>
 
 <script setup>
+import ItemVideo from './VideoItem.vue'
+
 defineProps({
     videos: {
         type: Array,
