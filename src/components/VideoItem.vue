@@ -38,7 +38,6 @@ defineProps({
 <style scoped>
 .video-title {
     text-overflow: ellipsis;
-    white-space: nowrap;
     overflow: hidden;
     max-height: 2.5rem;
     display: -webkit-box;
