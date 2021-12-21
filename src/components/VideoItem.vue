@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="relative">
-            <img :src="video.thumbnail" :alt="video.title" />
+            <img :src="video.thumbnail" :alt="video.title" class="w-full" />
             <span
                 class="absolute bottom-0 right-0 bg-black m-2 p-0.5 text-white font-bold text-sm"
                 >{{ video.duration }}</span
@@ -43,5 +43,8 @@ defineProps({
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+.w-full {
+    width: 100%;
 }
 </style>
